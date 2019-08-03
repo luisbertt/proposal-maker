@@ -11,6 +11,7 @@ module.exports = {
     filename: "bundle.js"
   },
   resolve: {
+    extensions: [".js", ".jsx"],
     alias: {
       components: path.resolve(__dirname, "src/components/")
     }
@@ -25,7 +26,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.jsx?/,
         exclude: /node_modules/,
         use: ["babel-loader"]
       },
