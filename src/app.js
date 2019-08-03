@@ -1,13 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import { Container } from "react-bootstrap";
-import "./utils/main.sass";
 import { MainPage } from "./containers/MainPage";
+import "./utils/main.sass";
 
-const App = () => (
-  <Container>
-    <MainPage />
-  </Container>
-);
+const App = () => <MainPage />;
 
 render(<App />, document.getElementById("root"));

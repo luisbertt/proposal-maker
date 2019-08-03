@@ -1,11 +1,12 @@
 import React from "react";
 import { Logo } from "../Logo";
 import LogoSrc from "../../assets/img/logo-horizontal.png";
+import "./Header.sass";
 
 const Header = () => (
-  <div>
+  <header>
     <Logo src={LogoSrc} height="60px" />
-  </div>
+  </header>
 );
 
 export default Header;
