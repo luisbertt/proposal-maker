@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
 import { Container } from "react-bootstrap";
 import "./utils/main.sass";
 
@@ -9,4 +9,4 @@ const App = () => (
   </Container>
 );
 
-ReactDOM.render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById("root"));
