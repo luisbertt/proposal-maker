@@ -1,9 +1,10 @@
 import React from "react";
 import "./Proposal.sass";
+import { CompanyInfo } from "../CompanyInfo";
 
 const Proposal = () => (
   <main>
-    <h1 />
+    <CompanyInfo />
   </main>
 );
 
