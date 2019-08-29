@@ -3,7 +3,8 @@ import { InputGroup } from "../InputGroup";
 import "./ClientInfo.sass";
 
 const ClientInfo = () => (
-  <div className="client-info col-6">
+  <div className="client-info col-md-3">
+    <h3>Project Info</h3>
     <InputGroup name="Client" type="text" />
     <InputGroup name="Project" type="text" />
     <InputGroup name="Address" type="text" />
