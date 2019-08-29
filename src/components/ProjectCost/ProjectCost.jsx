@@ -3,10 +3,12 @@ import { InputGroup } from "../InputGroup";
 import "./ProjectCost.sass";
 
 const ProjectCost = () => (
-  <div className="project-cost col-6">
-    <InputGroup name="costPerSqft" type="text" />
-    <InputGroup name="totalArea" type="text" />
-    <InputGroup name="total" type="text" />
+  <div className="project-cost col-md-3 mt-4">
+    <h3>Project Cost</h3>
+    <InputGroup name="Cost/Sqft" type="number" />
+    <InputGroup name="Total Area" type="number" />
+    <p>-----------</p>
+    <h4>Total</h4>
   </div>
 );
 
