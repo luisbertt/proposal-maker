@@ -3,7 +3,6 @@ import "./SpecItem.sass";
 
 const SpecItem = () => (
   <tr className="spec-item">
-    <td className="text-center">1</td>
     <td>
       <select className="form-control" name="location">
         <option>Body</option>

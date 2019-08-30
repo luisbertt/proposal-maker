@@ -8,7 +8,6 @@ const Specifications = ({ type, options }) => (
     <table className="table table-borderless">
       <thead>
         <tr>
-          <th>#</th>
           <th>Location</th>
           <th>Manufacturer</th>
           <th>Description</th>
