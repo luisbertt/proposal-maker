@@ -4,7 +4,11 @@ import "./InputGroup.sass";
 const InputGroup = ({ name, type }) => (
   <div className="form-group">
     <label>{name}</label>
-    <input className="form-control" type={type} />
+    <input
+      className="form-control"
+      name={name.toString().toLowerCase()}
+      type={type}
+    />
   </div>
 );
 
