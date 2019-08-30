@@ -3,7 +3,8 @@ import "./ScopeOfWork.sass";
 
 const ScopeOfWork = () => (
   <div className="scope-of-work">
-    <h4>Scope Of Work</h4>
+    <h3 className="text-center">Scope Of Work</h3>
+    <textarea className="form-control" id="scopeOfWork" rows="3"></textarea>
   </div>
 );
 
