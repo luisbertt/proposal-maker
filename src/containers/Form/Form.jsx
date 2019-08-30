@@ -2,6 +2,7 @@ import React from "react";
 import { ClientInfo } from "../../components/ClientInfo";
 import { ProjectCost } from "../../components/ProjectCost";
 import { ScopeOfWork } from "../../components/ScopeOfWork";
+import { ProposedPayment } from "../../components/ProposedPayment";
 import "./Form.sass";
 
 const Form = () => (
@@ -12,6 +13,7 @@ const Form = () => (
     </div>
     <div className="col-md-9">
       <ScopeOfWork />
+      <ProposedPayment />
     </div>
   </main>
 );
