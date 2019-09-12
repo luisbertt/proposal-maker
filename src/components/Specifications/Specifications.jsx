@@ -1,4 +1,5 @@
 import React from "react";
+import { AddItemButton } from "../AddItemButton";
 import { SpecItem } from "../SpecItem";
 import "./Specifications.sass";
 
@@ -20,6 +21,7 @@ const Specifications = ({ type, options }) => (
         <SpecItem />
       </tbody>
     </table>
+    <AddItemButton></AddItemButton>
   </div>
 );
 
