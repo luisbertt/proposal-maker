@@ -17,6 +17,7 @@ const ScopeOfWork = () => {
         id="scopeOfWork"
         rows="3"
         placeholder="Define scope of work"
+        value={scope}
         onChange={handleChange}
       ></textarea>
     </div>

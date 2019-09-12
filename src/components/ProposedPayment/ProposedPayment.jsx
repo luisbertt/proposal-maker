@@ -23,6 +23,7 @@ const ProposedPayment = () => {
         className="form-control text-center"
         name="proposedPayment"
         type="text"
+        value={payment}
         onChange={handleChange}
       />
     </div>
