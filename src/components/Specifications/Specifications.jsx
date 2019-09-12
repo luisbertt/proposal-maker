@@ -37,7 +37,7 @@ const Specifications = ({ type, options }) => {
   return (
     <div className="specifications mb-4">
       <h3 className="text-center">{type} Spec Items</h3>
-      <table className="table table-borderless">
+      <table className="table table-bordered">
         <thead>
           <tr>
             <th>Location</th>
