@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
-import { MainPage } from "./containers/MainPage";
+import { Proposal } from "./containers/Proposal";
 
-const App = () => <MainPage />;
+const App = () => <Proposal />;
 
 render(<App />, document.getElementById("root"));
