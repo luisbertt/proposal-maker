@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import { Proposal } from "./containers/Proposal";
+import { Proposal } from "./app/containers/Proposal";
 
 const App = () => <Proposal />;
 

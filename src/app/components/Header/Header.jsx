@@ -1,7 +1,7 @@
 import React from "react";
-import { Logo } from "../Logo";
-import LogoSrc from "../../assets/img/logo-horizontal.png";
+import LogoSrc from "../../../public/assets/img/logo-horizontal.png";
 import { Button } from "react-bootstrap";
+import { Logo } from "../Logo";
 import "./Header.sass";
 
 const Header = () => (

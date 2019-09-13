@@ -13,13 +13,15 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
     alias: {
-      components: path.resolve(__dirname, "src/components/")
+      components: path.resolve(__dirname, "src/app/components"),
+      public: path.resolve(__dirname, "src/public"),
+      utils: path.resolve(__dirname, "src/utils")
     }
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html",
-      favicon: "src/assets/favicon.ico"
+      template: "src/public/index.html",
+      favicon: "src/public/assets/favicon.ico"
     }),
     new CleanWebpackPlugin()
   ],

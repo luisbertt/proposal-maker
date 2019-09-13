@@ -1,7 +1,6 @@
 import React from "react";
-import Form from "react-bootstrap/Form";
 import { Logo } from "../Logo";
-import LogoSrc from "../../assets/img/logo.png";
+import LogoSrc from "../../../public/assets/img/logo-horizontal.png";
 import "./CompanyInfo.sass";
 
 const CompanyInfo = () => (

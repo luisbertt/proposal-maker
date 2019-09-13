@@ -5,13 +5,17 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server",
+    "start": "webpack-dev-server",
+    "server": "node src/index.js",
     "build:prod": "webpack -p"
   },
   "author": "Luisbert Seijas",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.0",
+    "morgan": "^1.9.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.8.6"
@@ -29,6 +33,7 @@
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
+    "nodemon": "^1.19.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.39.0",
