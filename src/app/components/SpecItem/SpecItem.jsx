@@ -23,6 +23,7 @@ const SpecItem = ({ id, values, options, handleChange, deleteItem }) => (
         onChange={handleChange(id)}
       >
         <option>Sherwin</option>
+        <option>PPG</option>
       </select>
     </td>
     <td>
